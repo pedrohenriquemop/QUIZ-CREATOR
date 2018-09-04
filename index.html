@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>QUIZ PROTOTYPE</title>
+  </head>
+  <body>
+    <h1>PROTÓTIPO</h1>
+    <div id="quizes">
+      <ul></ul>
+      <img id='botao-add' class='botao' src="botao-mais.png">
+    </div>
+    <div id="novo-quiz">
+      <img src="X.png" class='botao botao-fechar'>
+      <input id='nome-quiz' type="text" value="Novo Quiz">
+      <textarea id='pergunta-quiz' rows="8" cols="50" placeholder="Digite aqui a pergunta"></textarea>
+      <input class='alternativa' type="text" placeholder="alternativa 1">
+      <input class='alternativa' type="text" placeholder="alternativa 2">
+      <input class='alternativa' type="text" placeholder="alternativa 3">
+      <input class='alternativa' type="text" placeholder="alternativa 4">
+      <input class='alternativa' type="text" placeholder="alternativa 5">
+      <label>Qual a alternativa correta?<input id='alternativa-correta' type="number" placeholder="Ex.: 2" min="1" max="5"></label>
+      <button id='criar-quiz'>Criar quiz</button>
+    </div>
+    <div id="quiz-place">
+
+    </div>
+    <script src='script.js'></script>
+  </body>
+</html>
